@@ -14,9 +14,9 @@ SQL Server 2008
 
 三、目录说明
 
-BLL：项目的业务逻辑层
-DAL：项目的数据访问层
-Model：项目的实体类
-News：项目的视图层
+BLL：项目的业务逻辑层<br/>
+DAL：项目的数据访问层<br/>
+Model：项目的实体类<br/>
+News：项目的视图层<br/>
 
 
