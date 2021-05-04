@@ -1,0 +1,224 @@
+
+
+.index-top-ad { margin: 10px auto; background: #fff; padding: 10px 10px 6px; width: 75pc; overflow: hidden }
+.index-top-ad a { display: block; width: 33.1%; height: 5pc; margin-right: 4px; margin-bottom: 4px; float: left; position: relative }
+.index-top-ad a:before { position: absolute; content: " "; width: 26px; height: 1pc; background: url(../images/watermark.png); right: 0; font-size: 9pt; text-align: center; bottom: 0; color: #fff }
+.index-top-ad a img { width: 100%; height: 5pc!important; z-index: 1 }
+.index-top-ad a:nth-child(3n+0) { margin: 0 }
+.index-top-ad span a, .index-top-ad span a img { display: block; width: 100%; height: 5pc; overflow: hidden }
+.index-top-ad span { margin-bottom: 4px; float: left; width: 49.7% }
+.index-top-ad span:nth-child(2n+0) { float: right }
+/* 
+.index-top-ad{margin:10px auto 10px;background:#fff;padding:10px 10px 6px;width:75pc;overflow:hidden}
+.index-top-ad a{display:block;width:33.1%;height:5pc;margin-right:4px;margin-bottom:4px;float:left;position:relative}
+.index-top-ad a:before{position:absolute;content:" ";width:26px;height:1pc;background:url(../images/watermark.png);right:0;font-size:9pt;text-align:center;bottom:0;color:#fff}
+.index-top-ad a img{width:100%;height:5pc!important;z-index:1}
+.index-top-ad a:nth-child(3n+0){margin:0}
+.index-top-ad span a,.index-top-ad span a img{display:block;width:100%;height:5pc;overflow:hidden}
+.index-top-ad span{margin-bottom:5px;float:inherit;width:100%}
+.index-top-ad p{display:block;width:1180px;overflow:hidden}
+.index-top-ad p a{width:100%}
+*/
+.index-wz-ad { margin: 10px auto; background: #fff; padding: 10px; width: 75pc; overflow: hidden }
+.index-wz-ad table { color: #e8e8e8!important; border: 1px!important }
+.index-wz-ad tr { width: 20%; float: left }
+.index-wz-ad td { width: 100%; float: left; text-align: center; line-height: 22px; height: 22px; overflow: hidden; font-size: 13px }
+.myad {width: 37px;height: 20px;display: inline-block;text-indent: 0;margin-right: 0px;background-size: 100% auto;line-height: 18px;font-style: normal;margin-top: 6px;vertical-align: middle;text-align: center;font-size: 13px;border: 1px solid gainsboro;color: #a7a7a7;}
+.index-news { overflow: hidden }
+.index-news-article { width: 715px; overflow: hidden; background: #fff }
+.news-article-title { height: 55px; line-height: 55px; border-bottom: 1px solid #1b54bc; font-size: 18px; color: #1b54bc; font-weight: 700 }
+.news-article-title strong { padding: 0 3px; font-size: 20px; color: red; height: 34px; display: -webkit-inline-box }
+.news-article-title-icon {
+    display: block;
+    background: url(../images/home/news-article-title-icon.png) no-repeat center;
+    background-size: 25px;
+    height: 55px;
+    width: 50px;
+    float: left;
+    margin-left: 15px
+}
+/*.news-article_container ul { padding-top: 20px; overflow: hidden }
+.news-article_container ul:nth-child(2), .news-article_container ul:nth-child(3), .news-article_container ul:nth-child(4), .news-article_container ul:nth-child(5) { display: none }
+.news-article_container li { width: 45%; float: left; height: 31px; overflow: hidden; line-height: 31px; margin-bottom: 10px; margin: 0 0 10px 4% }
+.news-article_container li a { float: left; text-align: left; padding-left: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; position: relative; font-size: 15px; text-indent: 20px }
+.news-article_container li a:before { position: absolute; content: " "; width: 4px; height: 4px; background: #dcdcdc; left: 0; top: 12.5px; border-radius: 50% }
+.news-article_container .new span { color: red }
+.news-article_container li span { float: right; font-size: 14px; color: #888; margin-right: 10px }*/
+.index-news-article .page { margin: 10px auto; position: relative; overflow: hidden; width: 96% }
+.index-news-article .page>div { width: 50%; height: 35px; color: #666; line-height: 35px; text-align: center; cursor: pointer; position: relative; font-size: 14px; border: 1px solid #efefef; user-select: none }
+.index-news-article .page>div:hover { background: #fbfbfb }
+.index-news-article .page .top { float: left; border-right: 0; border-radius: 3px 0 0 3px }
+.index-news-article .page .bottom { float: right; border-left: 0; border-radius: 0 3px 3px 0 }
+.index-news-article .page .cfx { width: 84px; height: 21px; background: #fff; display: block; float: left; position: absolute; z-index: 1; top: 50%; transform: translate(-50%, -50%) rotate(-42deg); left: 50%; border-bottom: 1px solid #efefef; border-top: 1px solid #efefef }
+.index-news-article .page .disabled { color: #b7b7b7 }
+.index-news-tool { width: 410px;height:659px; overflow: hidden; background: #fff }
+.index-news-tool .layui-carousel { width: 390px!important; height: 300px!important; border-bottom: 10px solid #f6f6f6; padding: 10px; box-sizing: initial; background: #fff }
+.index-news-tool .layui-carousel img { width: 430px; height: 300px }
+.index-news-tool .layui-carousel p { bottom: 5px; height: 30px; font-size: 10px }
+.index-news-tool .layui-carousel p, .index-news-tool .layui-carousel span { position: absolute; width: 100%; color: #fff; text-indent: 10px }
+.index-news-tool .layui-carousel span { bottom: 0; height: 75pt; background: linear-gradient(to bottom, transparent 0, rgba(4,4,4,.6) 100%); font-weight: 900; font-size: 1pc; line-height: 105px }
+.layui-carousel-ind ul { background: 0 0!important }
+.layui-carousel-ind { top: -38px!important; text-align: right!important }
+.layui-carousel-ind li { width: 8px!important; height: 8px!important }
+.index-news-ad a { display: block; margin: 10px }
+.index-news-tool-container { width: 330px; margin: 40px auto 15px }
+.index-news-tool-container .noad { border: 1px solid #42a7ff; color: #1B54BC; display: block; height: 48px; line-height: 48px; text-align: center; margin: 0 auto; float: none; font-size: 16px; transition: all .5s ease-in; border-radius: 30px }
+.index-news-tool-container .noad:hover { background: linear-gradient(90deg, #42a7ff 0%, #9c4dff 100%); color: #FFF }
+.index-news-tool-container .mytg {/*! border:1px solid #42a7ff; */ color: #1b54bc; display: block; height: 48px; line-height: 48px; text-align: center; border-radius: 5px; margin: 0 auto; float: none; font-size: 16px; transition: all .5s ease-in; border-radius: 30px; margin-top: 26px; background: linear-gradient(90deg, #002abb 0%, #00B4FF 100%); float: none; color: #FFF }
+.index-news-tool-container .mytg:hover { background: #42a7ff; }
+.index-news-tool-container fieldset { display: block; height: 34px; border-top: 1px solid #A9A9A9; margin: 0 auto; float: none; margin-top: 26px; border-left: 0; border-right: 0; border-bottom: 0 }
+.index-news-tool-container legend { width: 120px; font-size: 14px; line-height: 34px; color: #9A9A9A; text-align: center; border: 0 }
+.index-news-tool-container .tequan { margin: 0 auto; float: none; padding: 0; overflow: hidden; width: 290px }
+.index-news-tool-container .tequan li { margin-top: 24px; overflow: hidden }
+    .index-news-tool-container .tequan div i {
+        background: url(../images/home/privilege_icon.png) no-repeat;
+        width: 24px;
+        height: 24px;
+        display: block;
+        float: left;
+        margin-right: 7px
+    }
+.index-news-tool-container .tequan div span { cursor: default; height: 24px; line-height: 24px; display: block; float: left; color: #9A9A9A }
+.index-news-tool-container .tequan div { float: left }
+.index-news-tool-container .tequan .liright { float: right; text-align: right }
+.index-plate { background: #fff; overflow: hidden; margin: 10px auto; width: 71.5pc }
+.index-plate-title { height: 55px; line-height: 55px; border-bottom: 1px solid #1b54bc; font-size: 18px; color: #1b54bc; font-weight: 700 }
+.index-plate-title-icon {
+    display: block;
+    background: url(../images/home/index-plate-title-icon.png) no-repeat center;
+    background-size: 25px;
+    height: 55px;
+    width: 50px;
+    float: left;
+    margin-left: 15px
+}
+.index-plate-title .type { float: right; margin-right: 25px; font-weight: 100 }
+.index-plate-list { overflow: hidden; height: 350px }
+.index-plate-title .type a { color: #ababab; display: inline-block; cursor: pointer; text-indent: 0; margin-left: 13px; font-size: 15px; padding: 0 10px; height: 30px; line-height: 30px }
+.index-plate-title .type .hover { background: #eaf2ff; color: #5a9dff; border-radius: 6px }
+.index-plate-list .tpl-tr-wai { height: 579px; overflow: hidden }
+.index-plate-list .list-top { margin: 22px 25px 0; float: left; width: 1150px }
+.index-plate-list .list-tr { transition: .5s all; width: 2564px }
+.index-plate-list .list-top:nth-child(1) { margin-right: 25px }
+.index-plate-list .list-top ul { float: left; margin-right: 3%; width: 41%
+}
+.index-plate-list .list-top ul:nth-child(3n) { margin-right: 0 }
+.index-plate-list .list-top li { margin-bottom: 5px; width: 100% }
+.index-plate-list .list-top li:nth-last-child(1) { margin-bottom: 0 }
+.index-plate-list .list-top li a { display: block; line-height: 40px; height: 40px; font-size: 15px; overflow: hidden }
+.index-plate-list .list-top li a font { color: #ababab; margin-right: 7px; float: left; width: 5pc }
+.index-plate-list .list-top li a span { float: left; width: calc(100% - 7px - 5pc); line-height: 40px; height: 40px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden }
+.index-plate-list .list-top li a .list-img { width: 100%; height: 200px; overflow: hidden; border-radius: 4px; background: #f6f6f6 }
+.index-plate-list .list-top li a .list-img img { width: 100%; min-height: 100% }
+.index-plate-list .list-top li a .list-img img[src="/img/no-img1.png"] { margin-top: -40px }
+.index-plate-list .list-top li:nth-child(1) a { height: auto; position: relative }
+.index-plate-list .list-top li:nth-child(1) a span { position: absolute; width: 100%; background: rgba(0,0,0,.5); color: #fff; bottom: 0; left: 0; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; padding: 0 5% }
+.index-scoend { overflow: hidden }
+.index-activity { width: 780px; overflow: hidden; background: #fff; height: 250px }
+.index-activity-title { height: 55px; line-height: 55px; border-bottom: 1px solid #1b54bc; font-size: 18px; color: #1b54bc; font-weight: 700 }
+.index-activity-title-icon {
+    display: block;
+    background: url(../images/home/index-activity-title-icon.png) no-repeat center;
+    background-size: 25px;
+    height: 55px;
+    width: 50px;
+    float: left;
+    margin-left: 15px
+}
+.index-activity-title .types { float: right; margin-right: 25px; font-weight: 100 }
+.index-activity-title .types a { color: #ababab; display: inline-block; cursor: pointer; text-indent: 0; margin-left: 13px; font-size: 15px; padding: 0 10px; height: 30px; line-height: 30px }
+.index-activity-title .types .hover { background: #eaf2ff; color: #5a9dff; border-radius: 6px }
+.activity-list { width: 730px; margin: 27px 25px 2pc }
+.activity-list .list-fy { width: 1587px; transition: .5s all }
+.activity-list .list-fy ul { width: 740px; float: left }
+.activity-list .list-fy ul:nth-child(1) { margin-right: 25px }
+.activity-list .list-fy ul li { float: left; width: 50%; margin-bottom: 20px; padding-right: 15px }
+.activity-list .list-fy ul li:nth-child(2n) { padding-right: 0; padding-left: 15px }
+.activity-list .list-fy ul li:nth-last-child(1), .activity-list .list-fy ulli:nth-last-child(2) { margin-bottom: 0 }
+.activity-list .list-fy ul li:nth-child(1) a i { background: #ff2a2a; color: #fff }
+.activity-list .list-fy ul li:nth-child(2) a i { background: #ffc107; color: #fff }
+.activity-list .list-fy ul li:nth-child(3) a i { background: #03a9f4; color: #fff }
+.activity-list .list-fy ul li:nth-child(4) a i { background: #4caf50; color: #fff }
+.activity-list .list-fy ul li a { display: block; line-height: 30px; height: 30px; font-size: 15px; overflow: hidden }
+.activity-list .list-fy ul li a i { display: inline-block; vertical-align: middle; font-style: normal; margin-right: 10px; background: #f3f3f3; width: 35px; text-align: center; border-radius: 20px; color: #696969; font-size: 14px; height: 25px; line-height: 25px; margin-top: -2px }
+.index-look { width: 410px; overflow: hidden; background: #fff }
+.index-look-title { height: 55px; line-height: 55px; border-bottom: 1px solid #1b54bc; font-size: 18px; color: #1b54bc; font-weight: 700 }
+.index-look-title-icon { display: block; background: url(../images/index-look-title-icon.png) no-repeat center; background-size: 25px; height: 55px; width: 50px; float: left; margin-left: 15px }
+.index-look-title .iconfont { float: right; height: 55px; line-height: 54px; font-size: 20px; color: #d2d2d2; margin-right: 20px }
+.index-look-list { width: 355px; margin: 31px auto 0 }
+.index-look-list li { margin-bottom: 29px }
+.index-look-list li a { display: block }
+.index-look-list li a .list-img { width: 75pt; height: 70px; overflow: hidden; border-radius: 4px; float: left; margin-right: 15px }
+.index-look-list li a .list-img img { width: 100%; height: 70px }
+.index-look-list li a .info h3 { font-size: 1pc; line-height: 18px; display: block }
+.index-look-list li a .info font { display: block; margin-top: 8px; line-height: 20px; height: 20px; overflow: hidden; font-size: 15px; color: #333 }
+.indexnews-ad { margin: 10px auto; background: #fff; padding: 15px 20px; width: 75pc; overflow: hidden }
+.indexnewss-ad li { width: 30%; margin-right: 5%; float: left; box-sizing: content-box }
+.indexnewss-ad li:nth-child(3) { margin-right: 0; border-right: 0; padding-right: 0 }
+.indexnewss-ad li img { float: left; width: 52px; height: 52px; margin-right: 15px; border-radius: 10px }
+.indexnewss-ad li div { float: left; width: calc(100% - 52px - 25px - 75pt - 25px) }
+.indexnewss-ad li div h3 { font-size: 1pc; color: #333; height: 25px; line-height: 30px }
+.indexnewss-ad li div h3, .indexnewss-ad li div span { display: block; text-overflow: ellipsis; white-space: nowrap; overflow: hidden }
+.indexnewss-ad li div span { font-size: 13px; height: 26px; line-height: 26px; color: #a9a9a9 }
+.indexnewss-ad li .go { float: right; width: 75pt; border-radius: 20px; height: 35px; line-height: 33px; margin-top: 8.5px; text-align: center; margin-left: 10px; color: #ababab; border: 1px solid #ededed; transition: .2s all }
+.indexnewss-ad li .go:hover { border: 1px solid #1b54bc; color: #1b54bc }
+.index-other { width: 75pc; background: #fff; overflow: hidden; margin: 10px auto }
+.index-other .other-hot { width: 1200px; overflow: hidden }
+.other-hot-title { height: 55px; line-height: 55px; border-bottom: 1px solid #f6f6f6; font-size: 18px; color: #1b54bc; font-weight: 700 }
+.other-hot-title-icon { display: block; background: url(../images/other-hot-title-icon.png) no-repeat center; background-size: 25px; height: 55px; width: 50px; float: left; margin-left: 15px }
+.other-hot-title .typess { float: right; margin-right: 25px; font-weight: 100 }
+.other-hot-title .typess a { color: #ababab; display: inline-block; cursor: pointer; text-indent: 0; margin-left: 13px; font-size: 15px; padding: 0 10px; height: 30px; line-height: 30px }
+.other-hot-title .typess .hover { background: #eaf2ff; color: #5a9dff; border-radius: 6px }
+.other-hot-list { width: 730px; margin: 27px 25px 5px }
+.other-hot-list .hot-list-fy { width: 2290px; transition: .5s all }
+.other-hot-list .hot-list-fy ul { width: 740px; float: left }
+.other-hot-list .hot-list-fy ul:nth-child(1), .other-hot-list .hot-list-fy ul:nth-child(2) { margin-right: 25px }
+.other-hot-list .hot-list-fy ul li { float: left; width: 50%; margin-bottom: 20px; padding-right: 15px }
+.other-hot-list .hot-list-fy ul li:nth-child(2n) { padding-right: 0; padding-left: 15px }
+.other-hot-list .hot-list-fy ul li:nth-last-child(1) { margin-bottom: 0 }
+.other-hot-list .hot-list-fy ul li:nth-child(1) a i { background: #ff2a2a; color: #fff }
+.other-hot-list .hot-list-fy ul li:nth-child(2) a i { background: #ffc107; color: #fff }
+.other-hot-list .hot-list-fy ul li:nth-child(3) a i { background: #03a9f4; color: #fff }
+.other-hot-list .hot-list-fy ul li:nth-child(4) a i { background: #4caf50; color: #fff }
+.other-hot-list .hot-list-fy ul li a { display: block; line-height: 30px; height: 30px; font-size: 15px; overflow: hidden }
+.other-hot-list .hot-list-fy ul li a i { display: inline-block; vertical-align: middle; font-style: normal; margin-right: 10px; background: #f3f3f3; width: 25px; text-align: center; border-radius: 20px; color: #696969; font-size: 14px; height: 25px; line-height: 25px; margin-top: -2px }
+.index-other .other-xq { width: 410px; overflow: hidden }
+.other-xq-title { height: 55px; line-height: 55px; border-bottom: 1px solid #f6f6f6; font-size: 18px; color: #1b54bc; font-weight: 700 }
+.other-xq-title-icon { display: block; background: url(../images/home/other-xq-title-icon.png) no-repeat center; background-size: 25px; height: 55px; width: 50px; float: left; margin-left: 15px }
+.other-xq-list { height: 300px; width: 25pc; margin-top: 30px; background: url(../images/map_bg.jpg) no-repeat center center; position: relative }
+.other-xq-list a { display: none; background: #e4e4e4; position: absolute; line-height: 62px; color: #fff; width: 78px; height: 78px; text-align: center; border-radius: 50%; padding: 5px; font-size: 14px; border: 3px solid #fff; transform: scale(1) }
+.other-xq-list a:hover { opacity: .7; color: #fff }
+.other-xq-list a:nth-child(1) { left: 11pc; top: 79px; background: #f44336; display: block }
+.other-xq-list a:nth-child(2) { right: 26px; top: 8px; background: #41d39d; display: block }
+.other-xq-list a:nth-child(3) { left: 35px; top: 14px; background: #607d8b; display: block }
+.other-xq-list a:nth-child(4) { left: 13px; bottom: 50px; background: #fea342; display: block }
+.other-xq-list a:nth-child(5) { right: 170px; bottom: 36px; background: #4197e2; display: block }
+.other-xq-list a:nth-child(6) { right: 10px; bottom: 15px; background: #8c8c8c; display: block }
+.news-article_container ul { padding-top: 10.4px; overflow: hidden }
+.news-article_container ul:nth-child(2), .news-article_container ul:nth-child(3), .news-article_container ul:nth-child(4), .news-article_container ul:nth-child(5) { display: none }
+.news-article_container li { width: 90%; float: left; height: 31px; overflow: hidden; line-height: 31px; margin-bottom: 10px; margin: 0 0 10px 4% }
+.news-article_container li a { float: left; text-align: left; padding-left: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; position: relative; font-size: 15px; text-indent: 20px }
+.news-article_container li a:before { position: absolute; content: " "; width: 4px; height: 4px; background: #dcdcdc; left: 0; top: 12.5px; border-radius: 100% }
+.news-article_container .new span { color: red }
+.news-article_container li span { float: right; font-size: 14px; color: #888; margin-right: 10px }
+
+
+ @media screen and (max-width:800px) {
+.activity-list, .activity-list .list-fy, .activity-list .list-fy ul, .activity-list .list-fy ul li, .container, .index-activity, .index-look, .index-look-list, .index-news-article, .index-plate, .index-plate-list .list-top, .index-plate-list .list-top ul, .index-plate-list .list-tr, .news-article_container li { width: 100% }
+.index-news-tool, .index-other, .index-top-ad, .index-wz-ad, .indexnews-ad, .type, .types { display: none }
+.index-plate-list .list-top:nth-child(1) { margin: 3% 0 1% }
+.activity-list, .index-activity, .index-plate-list { height: auto }
+.activity-list .list-fy ul li:nth-child(2n) { padding-left: 0 }
+.index-activity-title, .index-look-title, .index-plate-title, .news-article-title, .news-article-title strong { font-size: 1rem }
+.index-activity-title-icon, .index-look-title-icon, .index-plate-title-icon, .news-article-title-icon { background-size: 1.5rem;  margin-left: .1rem
+}
+.activity-list, .news-article_container li { margin: 0 3%; width: 94% }
+.activity-list, .index-look, .index-news-article { margin-top: 2% }
+.index-plate-list .list-top ul { margin: 0 3% 4%; width: 94%; border-bottom: 1px solid #f1f1f1; padding-bottom: 2% }
+.activity-list .list-fy ul:nth-child(1), .index-plate-list .list-top { margin: 0 }
+.activity-list .list-fy ul:nth-child(1) { border-bottom: 1px solid #f1f1f1; margin-bottom: 3%; padding-bottom: 3% }
+.activity-list .list-fy ul:nth-child(2) { padding-bottom: 3% }
+.activity-list .list-fy ul li { margin-bottom: 1% }
+.index-look-list { margin: 3% 3% 0; width: 94% }
+}
+.dad img {width: 100%!important;}

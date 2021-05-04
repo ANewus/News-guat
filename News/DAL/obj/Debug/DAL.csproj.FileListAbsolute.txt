@@ -1,0 +1,9 @@
+G:\VS source\repos\News\News\DAL\bin\Debug\DAL.dll
+G:\VS source\repos\News\News\DAL\bin\Debug\DAL.pdb
+G:\VS source\repos\News\News\DAL\bin\Debug\Model.dll
+G:\VS source\repos\News\News\DAL\bin\Debug\Model.pdb
+G:\VS source\repos\News\News\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+G:\VS source\repos\News\News\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\VS source\repos\News\News\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\VS source\repos\News\News\DAL\obj\Debug\DAL.dll
+G:\VS source\repos\News\News\DAL\obj\Debug\DAL.pdb
